@@ -1,0 +1,11 @@
+.page-title-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .page-title {
+    font-size: 36px;
+    color: #F7418F; /* Adjust this color based on your palette */
+    font-weight: bold;
+  }
+  

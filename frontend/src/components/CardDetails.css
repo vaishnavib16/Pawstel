@@ -1,0 +1,55 @@
+/* Card container */
+.card {
+    width: 250px;
+    border: 2px solid #FC819E; /* Updated border color to match the palette */
+    border-radius: 12px; /* Increased border-radius for a smoother look */
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a more dynamic appearance */
+    text-align: center;
+    /*background-color: #FFF3C7; Light background color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    cursor: pointer; /* Indicates that the card is clickable */
+    width: 90%;
+}
+
+/* Image styling */
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 4px solid #F7418F; /* Border for distinct separation */
+}
+
+/* Card text */
+.card-name {
+    padding: 15px;
+    font-size: 20px; /* Slightly increased font size */
+    font-weight: bold;
+    color: #F7418F; /* Updated text color */
+    background-color: #FDD6D7; /* Background color for the text section */
+    border-radius: 0 0 12px 12px; /* Matching border-radius with card */
+    box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .card {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .card-image {
+        height: 150px; /* Adjusted image height */
+    }
+
+    .card-name {
+        font-size: 18px; /* Adjusted font size for smaller screens */
+        margin-bottom: 0 !important;
+        
+    }
+}

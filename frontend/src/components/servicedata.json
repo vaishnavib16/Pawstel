@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "GROOMING",
+    "image": "grooming.jpg",
+    "info": "Grooming is essential for the health and well-being of your pets...",
+    "highlights": [
+      "Regular brushing",
+      "Nail trimming",
+      "Ear cleaning"
+    ],
+    "benefits": [
+      "Keeps your pet clean",
+      "Prevents skin issues",
+      "Reduces shedding"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "SPA",
+    "image": "spa.jpg",
+    "info": "Our pet spa offers a relaxing experience for your pets...",
+    "highlights": [
+      "Massage therapy",
+      "Aromatherapy",
+      "Hydrotherapy"
+    ],
+    "benefits": [
+      "Relieves stress",
+      "Improves circulation",
+      "Enhances coat health"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Haircut",
+    "image": "haircut.jpg",
+    "info": "Our pet spa offers a relaxing experience for your pets...",
+    "highlights": [
+      "Massage therapy",
+      "Aromatherapy",
+      "Hydrotherapy"
+    ],
+    "benefits": [
+      "Relieves stress",
+      "Improves circulation",
+      "Enhances coat health"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "dogwalk",
+    "image": "dogwalk.jpg",
+    "info": "Our pet spa offers a relaxing experience for your pets...",
+    "highlights": [
+      "Massage therapy",
+      "Aromatherapy",
+      "Hydrotherapy"
+    ],
+    "benefits": [
+      "Relieves stress",
+      "Improves circulation",
+      "Enhances coat health"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "HOSTEL BOOKING",
+    "image": "hostel.jpg",
+    "info": "Grooming is essential for the health and well-being of your pets...",
+    "highlights": [
+      "Regular brushing",
+      "Nail trimming",
+      "Ear cleaning"
+    ],
+    "benefits": [
+      "Keeps your pet clean",
+      "Prevents skin issues",
+      "Reduces shedding"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+.title-name{
+  color: #F7418F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.pet-form {
+  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #FC819E; /* Adjusted border color */
+  border-radius: 10px;
+  background-color: #FFFFFF; /* Adjusted background color 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Increased shadow for a better effect */
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+
+.pet-form:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #F7418F; /* Adjusted label color */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #FEC7B4; /* Adjusted border color */
+  border-radius: 4px;
+  font-size: 14px;
+  /*background-color: #FFF3C7;  Background matches the form for cohesion */
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #FC819E; /* Border color on focus */
+  outline: none;
+}
+
+.input-error {
+  border-color: #F7418F; /* Red border for errors */
+}
+
+.error {
+  color: #F7418F; /* Error text color */
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #FC819E; /* Adjusted button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #F7418F; /* Button color on hover */
+}
